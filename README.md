@@ -114,7 +114,9 @@ project-root/
 ## 🌐 Deployment
 ### Public Access
 - Deployed using Streamlit Community Cloud  
-- Accessible through a public URL  
+- Accessible through a public URL
+- https://programming-project-iez4igqgdj7bqcmgzuxnww.streamlit.app/
+
 
 ---
 
