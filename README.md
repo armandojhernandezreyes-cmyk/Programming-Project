@@ -126,22 +126,26 @@ project-root/
 
 1. **Install dependencies**
 
-&emsp;&emsp; Make sure you have Python 3.10+ installed, then install the required packages:
+&emsp;&emsp; Install all the required packages using requirements.txt:
 
    ```bash
-   pip install streamlit
-   pip install openai
+   pip install -r requirements.txt
    ```
 
 2. **Set up your API key**
 
-&emsp;&emsp; Create a file called my_secrets.py in the project root with the following content:
+&emsp;&emsp; Create a file named secrets.py in the project folder (the same folder as app.py) and add:
 
 &emsp;&emsp;&emsp; OPENAI_API_KEY = "PASTE-YOUR-KEY-HERE"
+
+&emsp;&emsp; Replace "PASTE-YOUR-KEY-HERE" with your actual OpenAI API key.
 
 3. **Run the app in the terminal**
 
 &emsp;&emsp; streamlit run app.py
+
+&emsp;&emsp; This will open the app in your browser at http://localhost:8501
+
 
 ---
 
