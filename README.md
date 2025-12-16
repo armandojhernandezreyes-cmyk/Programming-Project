@@ -97,17 +97,51 @@ It demonstrates user authentication, database management using SQLite, and simpl
 ### Project Root
 
 project-root/
+
 │
+
 ├── app.py                # Main Streamlit application
+
 ├── auth_ui.py            # Authentication logic and UI
+
 ├── db.py                 # SQLite database functions
+
 ├── llm_utils.py          # AI summarizer and tutor chatbot logic
+
 ├── users.db              # SQLite database
+
 ├── requirements.txt      # Python dependencies
+
 ├── README.md             # Project documentation
+
 │
+
 └── .streamlit/
+
     └── secrets.toml      # API keys and OAuth configuration
+
+---
+
+## 🖥️ How to Run
+
+1. **Install dependencies**
+
+&emsp;&emsp; Make sure you have Python 3.10+ installed, then install the required packages:
+
+   ```bash
+   pip install streamlit
+   pip install openai
+   ```
+
+2. **Set up your API key**
+
+&emsp;&emsp; Create a file called my_secrets.py in the project root with the following content:
+
+&emsp;&emsp;&emsp; OPENAI_API_KEY = "PASTE-YOUR-KEY-HERE"
+
+3. **Run the app in the terminal**
+
+&emsp;&emsp; streamlit run app.py
 
 ---
 
